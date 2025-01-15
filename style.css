@@ -3,125 +3,37 @@
     padding: 0;
 }
 
-/* .header{
-    background-color: rgb(47, 47, 109);
-    height: 80px;
-    width: 100%;
-   
-}
 
- .nav img{
-    height: 80px;
-    width: 150px;
-    background-color: blueviolet;
-    margin: 10px;
-    
-    
- }
- .btn{
-    padding: 10px;
-    width: 80px;
-    background-color: brown;
- 
- } */
-/* 
-.header{
-    background-color: aqua;
-    height: 80px;
-    width: 100%;
-    display: inline-block; 
-}
-.nav{
-    /* background-color: brown; */
-/* height: 40px;
-    width: 100%; */
-/* text-align: right; */
-/* }
-
-.btn{ */
-/* text-align: right;  */
-/* display: inline-block; */
-/* background-color: blue; */
-/* height: 80px;
-    width: 90px; */
-/* vertical-align: top; */
-/* }
-
-.nav img{
-    height: 70px;
-    width: 125px;
-    margin: 15px;
-    background-color: blueviolet;
-    align-items: center;
-} */
-
-
-/* .header{
-    background-color: rgb(158, 57, 57);
-    display: inline-block;
-    justify-content: space-around;
-    display: flex;
-     align-items: center;
-    width: 100%;
-}
-.nav{
-    display:inline-block;
-   
-}
-.nav img{
-    background-color: rgb(59, 43, 85);
-    height: 80px;
-    width:150px;
-     margin: 10px;
-}
-.btn{
-    display:inline-block;
-   background-color: orange;
-   text-align: right; 
-    margin: 50px;
-   padding: 50px;
-    align-items: right;
-justify-content: right;
-} */
-
-/* .header{
-    background-color: rgb(204, 184, 223);
-    display: flex;
-  
-}
-.logo{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
-.logo img{
-    height: 30px;
-    width: 40px;
-    margin: 10px;
-}
-.btn{
-    /* display: flex; */
-/* margin-left: 70%;
-    
-    
-}
-button{
-
-} */
 .header {
-    background-color: blueviolet;
+    background-color: rgb(226, 80, 43);
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    width: 90%;
+   
 }
-
+.main{
+    display: flex;
+    gap:30px ;
+    margin: auto;
+background-color: aqua;
+    width: 50%;
+}
+/* .text{
+   background-color: blue;
+   /* font-size: 18px; */
+   font-weight: bold;
+   color: #000;
+} */
+.logo{
+    background-color: olive;
+    width: 50%;
+}
 .logo img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 5px;
-    display: inline-block;
-  /* text-align: center; */
+    margin-right: 700px;
 
 }
 
@@ -129,16 +41,16 @@ button{
     background-color: rgb(185, 130, 130);
     padding: 5px;
     width: 70px;
-    margin-left: 850px;
+    /* margin-left: 850px; */
     border-radius: 8px;
 }
 .Signup {
     background-color: rgb(185, 130, 130);
-    margin-right: 200px;
+    /* margin-right: 200px; */
     padding: 5px;
     width: 70px;
     border-radius: 8px;
 }
 .opt{
-   
+  
 }

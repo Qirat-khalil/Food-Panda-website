@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(250, 244, 244);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    /* box-shadow: 1px 1px 0px gray; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    /* background-color: aquamarine; */
+}
+.logo img{
+    width: 35px;
+    border-radius: 5px;
+}
+.text{
+    color: palevioletred;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.opt:hover{
+ background-color: gray;
+}
+.opt{
+  border: none;
+}
+.btn{
+    display: flex;
+   gap: 40px;
+ 
+}
+.login{
+    width: 75px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.signup{
+    width: 75px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: pink;
+}
+.basket{
+    border-radius: 50%;
+    /* background-color: rgb(92, 83, 83); */
+    padding: 9px;
+}
+.world{
+    padding: 8px;
+    /* background-color: gray; */
+    border-radius: 5px;
+}
+.world:hover{
+    background-color: rgb(179, 176, 176);
+}
+
+.basket:hover{
+    background-color: gray;
+}
+
+.hero-section{
+    display: flex; 
+    
+   
+    background-color: aqua;
+     height: 85vh;
+    width: 100%; 
+   
+   
+}
+ .head-text{
+    background-color: blue;
+    width: 100%;
+    font-weight: bolder;
+    margin: 50px;
+    /* padding: 20px; */
+    font-size: large;
+    margin-top: 90px;
+    
+ }
+
+  .inp1{
+   
+    padding: 8px;
+  }
+ .inp{
+    /* text-align: center;
+    margin-bottom: 85px; */
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    padding: 12px;
+   width: 90%;
+   border-radius: 8px;
+  margin-top: 25px;
+  gap: 25px;
+   
+ }
+
+.panda-img{
+    display: flex;
+    background-color: brown;
+    /* align-items:right; */
+    width: 90%;
+    padding: 10px;
+   
+    
+}
+.panda-img img{
+    width: 100%; 
+    height: 80vh; 
+   
+}
+
+.find-btn{
+    padding: 4px;
+    width: 65px;
+    height: 35px;
+
+}
