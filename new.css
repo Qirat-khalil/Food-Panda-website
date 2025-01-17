@@ -149,7 +149,7 @@
     width: 100%;
     background-color:#FFFFFF;
      margin-top: 55px;
-     /* position: relative; */
+     position: relative;
 }
 
 .center-head{
@@ -161,10 +161,6 @@
 }  
 
 
-/* .head-3{
-    margin-left: 35px;
-    padding: 20px;
-} */
 .bg-img{
     width: 100%;
 }
@@ -179,9 +175,9 @@
     height: 55vh;
     width: 40%;
   border-radius: 15px;
-  /* position: absolute; */
-  /* left: 100px ;
-  top: 300px; */
+  position: absolute;
+  left: 100px ;
+  top: 300px;
   
 }
 .cart h2{
