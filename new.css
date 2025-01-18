@@ -144,7 +144,97 @@
 }
 /* new section start  */
 
- .second-sec{
+
+.hero-3{
+    width: 100%;
+    height: 400px;
+    background-color: #E21B70;
+}
+.img-2{
+    width: 100%;
+    height: 57%;
+    background-color: red;
+}
+
+.img-2 > img{
+    width: 100%;
+    height: 1000%;
+}
+
+.hero-4{
+    width: 45%;
+    height: 350px;
+    background-color:white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-180px;
+    right: -70px;
+    box-shadow: -1px 4px 5px #d4d4d4;
+    
+}
+
+.img-card{
+    width: 90%;
+    height: 95%;
+    /* background-color: darkcyan; */
+}
+
+.img-card > h3{
+    font-family: myfirstfont; */
+    font-weight:100;
+    word-spacing: 2px;
+    font-size: 25px;
+    margin-top: 10px;
+} 
+
+.card-text-1{
+    /* background-color: #E21B70; */
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.card-text-2{
+    /* background-color: blueviolet; */
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.card-text-3{
+    /* background-color: chartreuse; */
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.card-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E21B70;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.card-button:hover{
+    background-color: #c11660;
+}
+
+
+
+
+
+
+
+
+
+
+ /* .second-sec{
     height: 55vh;
     width: 100%;
     background-color:#FFFFFF;
@@ -186,11 +276,11 @@
 
 }
 
-.head-3{
+/* .head-3{
     margin-left: 35px;
     padding: 15px;
-}
-.para p{
+} */
+/* .para p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:500;
     padding: 15px;
@@ -203,25 +293,33 @@
     border-radius: 8px;
     background-color:#C21760;
     border: none;
-}
+}  */
+
+
 
 /* .section-third{
     background-color: aqua;
     height: 55px;
     width: 100%;
-}
-.sec-3{
+} */
+
+/* .head-3{
+    margin-left: 35px;
+    padding: 15px;
+} */
+
+/* .sec-3{
     
     height: 60vh;
     width: 100%;
     display: flex;
     margin-top: 10px;
-   gap:40px;
+    gap:40px;
     justify-content: center
    
 } */
 
-.one{
+/* .one{
     background-color: aqua;
     height: 25px;
     width: 10%;
@@ -259,4 +357,12 @@
     background-color: rgb(14, 12, 39);
     height: 40vh;
     width: 21%;
+} */
+
+
+
+.hero-3{
+    background-color: rgb(48, 94, 94);
+    height: 10vh;
+    width: 100%;
 }
